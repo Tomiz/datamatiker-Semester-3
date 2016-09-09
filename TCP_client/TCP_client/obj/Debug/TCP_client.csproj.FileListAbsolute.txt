@@ -3,3 +3,6 @@ c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\bin\D
 c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\bin\Debug\TCP_client.pdb
 c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\obj\Debug\TCP_client.exe
 c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\obj\Debug\TCP_client.pdb
+C:\Users\thoma\Source\Repos\thom95\TCP_client\TCP_client\bin\Debug\TCP_client.exe.config
+C:\Users\thoma\Source\Repos\thom95\TCP_client\TCP_client\obj\Debug\TCP_client.exe
+C:\Users\thoma\Source\Repos\thom95\TCP_client\TCP_client\obj\Debug\TCP_client.pdb

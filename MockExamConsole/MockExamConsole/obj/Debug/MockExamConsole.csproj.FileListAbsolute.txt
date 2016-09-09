@@ -4,3 +4,9 @@ c:\users\thoma\documents\visual studio 2015\Projects\MockExamConsole\MockExamCon
 c:\users\thoma\documents\visual studio 2015\Projects\MockExamConsole\MockExamConsole\obj\Debug\MockExamConsole.csprojResolveAssemblyReference.cache
 c:\users\thoma\documents\visual studio 2015\Projects\MockExamConsole\MockExamConsole\obj\Debug\MockExamConsole.exe
 c:\users\thoma\documents\visual studio 2015\Projects\MockExamConsole\MockExamConsole\obj\Debug\MockExamConsole.pdb
+C:\Users\thoma\Source\Repos\thom95\MockExamConsole\MockExamConsole\bin\Debug\MockExamConsole.exe.config
+C:\Users\thoma\Source\Repos\thom95\MockExamConsole\MockExamConsole\obj\Debug\MockExamConsole.exe
+C:\Users\thoma\Source\Repos\thom95\MockExamConsole\MockExamConsole\obj\Debug\MockExamConsole.pdb
+C:\Users\thoma\Source\Repos\thom95\MockExamConsole\MockExamConsole\bin\Debug\MockExamConsole.exe
+C:\Users\thoma\Source\Repos\thom95\MockExamConsole\MockExamConsole\bin\Debug\MockExamConsole.pdb
+C:\Users\thoma\Source\Repos\thom95\MockExamConsole\MockExamConsole\obj\Debug\MockExamConsole.csprojResolveAssemblyReference.cache

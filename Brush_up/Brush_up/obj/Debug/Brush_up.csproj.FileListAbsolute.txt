@@ -4,3 +4,6 @@ C:\Users\thoma\documents\visual studio 2015\Projects\Brush_up\Brush_up\bin\Debug
 C:\Users\thoma\documents\visual studio 2015\Projects\Brush_up\Brush_up\obj\Debug\Brush_up.csprojResolveAssemblyReference.cache
 C:\Users\thoma\documents\visual studio 2015\Projects\Brush_up\Brush_up\obj\Debug\Brush_up.exe
 C:\Users\thoma\documents\visual studio 2015\Projects\Brush_up\Brush_up\obj\Debug\Brush_up.pdb
+C:\Users\thoma\Source\Repos\thom95\Brush_up\Brush_up\bin\Debug\Brush_up.exe.config
+C:\Users\thoma\Source\Repos\thom95\Brush_up\Brush_up\obj\Debug\Brush_up.exe
+C:\Users\thoma\Source\Repos\thom95\Brush_up\Brush_up\obj\Debug\Brush_up.pdb
