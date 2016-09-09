@@ -1,0 +1,9 @@
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletorTests.dll
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletorTests.pdb
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletor.dll
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletor.pdb
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.csprojResolveAssemblyReference.cache
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.dll
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.pdb

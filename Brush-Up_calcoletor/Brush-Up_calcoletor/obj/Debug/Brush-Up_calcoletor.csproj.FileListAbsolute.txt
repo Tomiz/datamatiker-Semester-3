@@ -1,0 +1,5 @@
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletor\bin\Debug\Brush-Up_calcoletor.dll
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletor\bin\Debug\Brush-Up_calcoletor.pdb
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.csprojResolveAssemblyReference.cache
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.dll
+c:\users\thoma\documents\visual studio 2015\Projects\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.pdb
