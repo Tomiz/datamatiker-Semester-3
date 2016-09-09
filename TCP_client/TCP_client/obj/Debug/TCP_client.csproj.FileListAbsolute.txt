@@ -1,0 +1,5 @@
+c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\bin\Debug\TCP_client.exe.config
+c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\bin\Debug\TCP_client.exe
+c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\bin\Debug\TCP_client.pdb
+c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\obj\Debug\TCP_client.exe
+c:\users\thoma\documents\visual studio 2015\Projects\TCP_client\TCP_client\obj\Debug\TCP_client.pdb
