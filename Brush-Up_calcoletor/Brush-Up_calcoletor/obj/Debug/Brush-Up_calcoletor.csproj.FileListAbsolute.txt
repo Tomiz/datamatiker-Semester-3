@@ -8,3 +8,9 @@ C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletor\bin\D
 C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.csprojResolveAssemblyReference.cache
 C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.dll
 C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.pdb
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletor\bin\Debug\Brush-Up_calcoletor.XML
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletor\bin\Debug\Brush-Up_calcoletor.dll
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletor\bin\Debug\Brush-Up_calcoletor.pdb
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.csprojResolveAssemblyReference.cache
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.dll
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletor\obj\Debug\Brush-Up_calcoletor.pdb

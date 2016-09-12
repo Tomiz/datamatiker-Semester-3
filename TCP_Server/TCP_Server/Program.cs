@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TCP_Server
@@ -13,54 +14,26 @@ namespace TCP_Server
     {
         static void Main(string[] args)
         {
-            IPAddress ipAdrAddress = Dns.GetHostEntry("localhost").AddressList[0];
+            //Ip adresse den connecter til
+            IPAddress ip = IPAddress.Parse("192.168.3.252");
+            //IPAddress ipAdrAddress = Dns.GetHostEntry("localhost").AddressList[0];
             try
             {
-                TcpListener myServer = new TcpListener(ipAdrAddress, 6789);
+                //Hvilken Ip og port den skal listen til
+                TcpListener myServer = new TcpListener(ip, 6789);
+                //starter serveren
                 myServer.Start();
-                TcpClient myServerTcpClientConnection = myServer.AcceptTcpClient();
 
-                Console.WriteLine("Server started");
-
-                Stream connectionStream = myServerTcpClientConnection.GetStream();
-
-                StreamReader streamReader = new StreamReader(connectionStream);
-                StreamWriter streamWriter = new StreamWriter(connectionStream);
-                streamWriter.AutoFlush = true;
-
-                string msg = streamReader.ReadLine();
-
-                //Console.WriteLine(msg);
-
-                //Console.WriteLine("Message recieved");
-                //string rsp = streamReader.ReadLine();
-                //streamWriter.WriteLine(rsp);
-
-                while (!string.IsNullOrEmpty(msg) && msg != "stop")
+                //Kører et while loop
+                while (true)
                 {
-                    //streamWriter.WriteLine(msg.ToUpper());
-                    //msg = streamReader.ReadLine();
-
-                    Console.WriteLine(msg.ToUpper());
-
-                    Console.WriteLine("Message recieved");
-                    streamReader.ReadLine();
-
-                    Console.ReadKey();
-                    Console.WriteLine("Write!");
-
-                    streamWriter.WriteLine(msg);
-                    string rsp = streamReader.ReadLine();
-
-                    Console.WriteLine(rsp);
-
+                    TcpClient connectionSocket = myServer.AcceptTcpClient();
+                    Console.WriteLine("Server started");
+                    //bruger classen EchoService, som reader og skriver beskeder 
+                    EchoService service = new EchoService(connectionSocket);
+                    Thread myThread = new Thread(service.DoIt);
+                    myThread.Start();
                 }
-
-                //Console.ReadLine();
-
-                //connectionStream.Close();
-                //myServerTcpClientConnection.Close();
-                //myServer.Stop();
             }
             catch (Exception e)
             {

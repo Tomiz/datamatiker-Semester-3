@@ -15,33 +15,30 @@ namespace TCP_client
             Console.WriteLine("press enter to make connection to the server");
             Console.ReadKey();
 
-            TcpClient myTcpClientConnection = new TcpClient("localhost", 6789);
+            TcpClient myTcpClientConnection = new TcpClient("192.168.3.252", 6789);
 
             Stream connectionStream = myTcpClientConnection.GetStream();
 
-
-            StreamReader streamReader = new StreamReader(connectionStream);
-            StreamWriter streamWriter = new StreamWriter(connectionStream);
-            streamWriter.AutoFlush = true;
-
-            Console.WriteLine("Write your message");
-
             //string Rmsg = streamReader.ReadLine();
-            string msg = Console.ReadLine();
 
-            while (!string.IsNullOrEmpty(msg) && msg != "stop")
+            while (true)
             {
+                StreamReader streamReader = new StreamReader(connectionStream);
+                StreamWriter streamWriter = new StreamWriter(connectionStream);
+                streamWriter.AutoFlush = true;
+
+                Console.WriteLine("Write your message");
+                string msg = Console.ReadLine();
                 streamWriter.WriteLine(msg);
                 string rsp = streamReader.ReadLine();
 
                 Console.WriteLine(rsp);
 
             }
-            
+            //while (!string.IsNullOrEmpty(msg) && msg != "stop")
+            //{
 
-
-
-
+            //}
         }
 
     }

@@ -16,3 +16,13 @@ C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletorTests\
 C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.csprojResolveAssemblyReference.cache
 C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.dll
 C:\Users\thoma\Source\Repos\thom95\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.pdb
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletorTests.dll
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletorTests.pdb
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletor.dll
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletor.pdb
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Brush-Up_calcoletor.xml
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.csprojResolveAssemblyReference.cache
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.dll
+C:\Users\thoma\Source\Repos\datamatiker-semester-3\Brush-Up_calcoletor\Brush-Up_calcoletorTests\obj\Debug\Brush-Up_calcoletorTests.pdb
