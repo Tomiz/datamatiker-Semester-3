@@ -11,7 +11,7 @@ namespace TCP_Server
         public EchoService(TcpClient connectionSocket)
         {
             //TODO: Comåæete member initialization
-            this._connectionSocket = connectionSocket;
+            _connectionSocket = connectionSocket;
         }
 
         internal void DoIt()
@@ -30,6 +30,11 @@ namespace TCP_Server
                 answer = message.ToUpper();
                 sw.WriteLine(answer);
                 message = sr.ReadLine();
+                if (message == "stop".ToUpper())
+                {
+                    Console.WriteLine("server stopped");
+                    break;
+                }
             }
             ns.Close();
             _connectionSocket.Close();

@@ -15,7 +15,11 @@ namespace TCP_client
             Console.WriteLine("press enter to make connection to the server");
             Console.ReadKey();
 
-            TcpClient myTcpClientConnection = new TcpClient("192.168.3.252", 6789);
+            //TcpClient myTcpClientConnection = new TcpClient("192.168.3.252", 6789);
+            //TcpClient myTcpClientConnection = new TcpClient("192.168.3.65", 8679);
+            //TcpClient myTcpClientConnection = new TcpClient("192.168.3.249", 6789);
+            TcpClient myTcpClientConnection = new TcpClient("192.168.3.27", 6789);
+            //TcpClient myTcpClientConnection = new TcpClient("192.168.3.16", 6789);
 
             Stream connectionStream = myTcpClientConnection.GetStream();
 

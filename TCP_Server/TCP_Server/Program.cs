@@ -15,7 +15,8 @@ namespace TCP_Server
         static void Main(string[] args)
         {
             //Ip adresse den connecter til
-            IPAddress ip = IPAddress.Parse("192.168.3.252");
+            IPAddress ip = IPAddress.Parse("10.200.128.166");
+            //IPAddress ip = IPAddress.Parse("192.168.3.252");
             //IPAddress ipAdrAddress = Dns.GetHostEntry("localhost").AddressList[0];
             try
             {
