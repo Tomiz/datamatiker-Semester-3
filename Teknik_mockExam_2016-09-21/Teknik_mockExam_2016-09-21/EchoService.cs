@@ -13,11 +13,14 @@ namespace Teknik_mockExam_2016_09_21
     {
         private readonly TcpClient _connectionSocket;
 
+        private Stream _cs;
+        private StreamReader _sr;
+        private StreamWriter _sw;
+
         /// <summary>
         /// The path to the file, the path can be changed after need
         /// </summary>
-        private static readonly string RootCatalog =
-            @"C:\Users\thoma\Source\Repos\datamatiker-semester-3\Teknik_mockExam_2016-09-21\Teknik_mockExam_2016-09-21\rootCatalog\";
+        private static readonly string RootCatalog =@"C:\Users\thoma\Desktop\";
 
         public EchoService(TcpClient connectionSocket)
         {
@@ -52,42 +55,42 @@ namespace Teknik_mockExam_2016_09_21
             {
                 try
                 {
-                    Stream cs = _connectionSocket.GetStream();
+                    _cs = _connectionSocket.GetStream(); // Makes the GET Request and http/1.1
 
-                    StreamReader sr = new StreamReader(cs);
-                    StreamWriter sw = new StreamWriter(cs) {AutoFlush = true}; // enable automatic flushing
+                    _sr = new StreamReader(_cs);
+                    _sw = new StreamWriter(_cs) {AutoFlush = true}; // enable automatic flushing
 
-                    string message = " ";
-
-                    while (message != null && message.ToLower() != "stop")
+                    string request = " ";
+                    while (request != null && request.ToLower() != "stop")
                     {
-                        message = sr.ReadLine();
+                        request = _sr.ReadLine();
 
-                        Console.WriteLine(message);
+                        Console.WriteLine(request);
 
                         // Makes a request on the browser request
                         // if the message contains something which is not null, and the message contains a GET and http 1.1 request, it does something
-                        if (message != null && (message.Contains("GET") && message.Contains("HTTP/1.1")))
+                        if (request != null && (request.Contains("GET") && request.Contains("HTTP/1.1")))
                         {
                             try
                             {
                                 // The file which it should open
-                                message = File.ReadAllText(Root() + @"testfil.txt");
+                                request = File.ReadAllText(Root() + @"index.html");
                             }
                             catch (Exception e)
                             {
                                 throw e;
                             }
-                            sw.WriteLine(message.ToLower());
+                            _sw.WriteLine(request.ToLower());
                         }
                         else
                         {
-                            if (message != null) sw.WriteLine(message.ToLower());
+                            if (request != null) _sw.WriteLine(request.ToLower());
                         }
 
                         // Closes the connection to the server
-                        cs.Close();
+                        _cs.Close();
                         _connectionSocket.Close();
+                        Console.ReadKey();
                     }
                 }
                 catch (Exception e)
