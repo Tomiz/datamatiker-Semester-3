@@ -26,7 +26,7 @@ namespace Teknik_mockExam_2016_09_21
                 while (true)
                 {
                     TcpClient connectionSocket = myServer.AcceptTcpClient();
-                    Console.WriteLine("Server started");
+                    Console.WriteLine("Server Connected: \n");
                     // uses the class EchoServer, which reads and writes the message
                     EchoService service = new EchoService(connectionSocket);
                     //service.Message();

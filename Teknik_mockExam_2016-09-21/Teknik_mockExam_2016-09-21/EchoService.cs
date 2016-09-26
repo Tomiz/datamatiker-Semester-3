@@ -20,7 +20,7 @@ namespace Teknik_mockExam_2016_09_21
         /// <summary>
         /// The path to the file, the path can be changed after need
         /// </summary>
-        private static readonly string RootCatalog =@"C:\Users\thoma\Desktop\";
+        private static readonly string RootCatalog = @"C:\Users\thoma\Desktop\";
 
         public EchoService(TcpClient connectionSocket)
         {
@@ -90,7 +90,7 @@ namespace Teknik_mockExam_2016_09_21
                         // Closes the connection to the server
                         _cs.Close();
                         _connectionSocket.Close();
-                        Console.ReadKey();
+                        break;
                     }
                 }
                 catch (Exception e)
