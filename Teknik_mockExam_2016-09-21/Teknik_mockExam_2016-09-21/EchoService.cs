@@ -28,7 +28,7 @@ namespace Teknik_mockExam_2016_09_21
         }
 
         /// <summary>
-        /// uses the path from RootCatalog og splits it up and returns the path
+        /// uses the path from RootCatalog and splits it up and returns the path
         /// it used in the method Message()
         /// </summary>
         /// <returns></returns>
@@ -46,7 +46,7 @@ namespace Teknik_mockExam_2016_09_21
 
         /// <summary>
         /// This method open and closes streams.
-        /// its making a HTTP GET response to the browser and gives the browers the file which it opens and reads
+        /// it makes a HTTP GET response to the browser and gives the browers the file which it opens and reads
         /// afterward it closes the connection, and the brower get its response and shows the file
         /// </summary>
         internal void Message()

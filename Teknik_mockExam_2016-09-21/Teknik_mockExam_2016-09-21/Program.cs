@@ -19,7 +19,7 @@ namespace Teknik_mockExam_2016_09_21
             {
                 // which IP and port the server should listen to
                 TcpListener myServer = new TcpListener(ip, 80);
-                //starter serveren
+                //starts server
                 myServer.Start();
 
                 // runs a while loop
@@ -29,7 +29,6 @@ namespace Teknik_mockExam_2016_09_21
                     Console.WriteLine("Server Connected: \n");
                     // uses the class EchoServer, which reads and writes the message
                     EchoService service = new EchoService(connectionSocket);
-                    //service.Message();
                     service.Message();
                 }
             }
