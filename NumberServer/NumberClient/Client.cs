@@ -13,33 +13,36 @@ namespace NumberClient
     {
         static void Main(string[] args)
         {
-            //Creates a UdpClient for reading incoming data.
+            // Creates a UdpClient for reading incoming data.
             UdpClient udpClient = new UdpClient(9999);
 
-            //Creates an IPEndPoint to record the IP Address and port number of the sender.  
-            //IPAddress ip = IPAddress.Parse("127.0.0.1");
-            //IPAddress ip = IPAddress.Parse("192.168.3.205");
+            // Localhost Ip
+            // IPAddress ip = IPAddress.Parse("127.0.0.1");
 
+            // Makes a endpoint, which ip and port the endpoint should listens to
             IPEndPoint remoteIpEndPoint = new IPEndPoint(IPAddress.Any, 9999);
-            //udpClient.EnableBroadcast = true;
 
             try
             {
-                // Blocks until a message is received on this socket from a remote host (a client).
-                Console.WriteLine("Client is blocked");
+                // writes the message Client
+                Console.WriteLine("Client");
+
+                //infinity loop
                 while (true)
                 {
+                    // Gets the received data as Bytes from the endpoint
                     Byte[] receiveBytes = udpClient.Receive(ref remoteIpEndPoint);
-
                     string receivedData = Encoding.ASCII.GetString(receiveBytes);
-                    Console.WriteLine("server: " + receivedData);
-                    //Console.WriteLine("Received from: " + clientName.ToString() + " " + text.ToString());
 
+                    //Writes the received data + ip adresse and port number
+                    Console.WriteLine("server: " + receivedData);
                     Console.WriteLine("This message was sent from " +
                                                 remoteIpEndPoint.Address.ToString() +
                                                 " on their port number " +
                                                 remoteIpEndPoint.Port.ToString() + "\n");
-                    Thread.Sleep(500);
+
+                   
+                    Thread.Sleep(500);  // Makes the program receive the data 500 milesecond later. 1000 = 1 second
                 }
             }
             catch (Exception e)

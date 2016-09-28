@@ -15,24 +15,27 @@ namespace NumberServer
         {
             int number = 0;
 
-            //Creates an IPEndPoint to record the IP Address and port number of the sender.  
+            // Localhost Ip adress
             //IPAddress ip = IPAddress.Parse("127.0.0.1");
 
-            //Creates a UdpClient for reading incoming data.
+            // Creates a UdpClient for reading incoming data.
             UdpClient udpServer = new UdpClient(0);
-            //UdpClient udpServer = new UdpClient("127.0.0.1", 9999);
 
+            // Makes a endpoint, which ip and port the endpoint should broadcast
             IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Broadcast, 9999);
             udpServer.EnableBroadcast = true;
 
             try
             {
+                // infinity loop
                 while (true)
                 {
+                    // Sends the data as Bytes to the endpoint
                     Byte[] sendBytes = Encoding.ASCII.GetBytes("Thomas: " + number);
 
                     try
                     {
+                        // Writes the data as Bytes and its lenght to the endpoint
                         udpServer.Send(sendBytes, sendBytes.Length, RemoteIpEndPoint);
                     }
                     catch (Exception e)
@@ -40,10 +43,10 @@ namespace NumberServer
                         Console.WriteLine(e.Message);                          
                     }
 
-                    number++;
-                    Console.WriteLine("number: " + number);
+                    number++; // counts + 1 for every time  it runs the loop
+                    Console.WriteLine("number: " + number); // prints the current number
 
-                    Thread.Sleep(400);
+                    Thread.Sleep(400); // Makes the program receive the data 400 milesecond later. 1000 = 1 second
 
                 }
             }
