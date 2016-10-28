@@ -42,7 +42,7 @@ namespace NumberClient
                                                 remoteIpEndPoint.Port.ToString() + "\n");
 
                    
-                    Thread.Sleep(500);  // Makes the program receive the data 500 milesecond later. 1000 = 1 second
+                    Thread.Sleep(3000);  // Makes the program receive the data 500 milesecond later. 1000 = 1 second
                 }
             }
             catch (Exception e)

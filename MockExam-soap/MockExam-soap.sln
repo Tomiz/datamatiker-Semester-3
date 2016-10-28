@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExam_client", "MockExam-soap\MockExam_client.csproj", "{83E86F26-5978-451F-A10F-3578D416761F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AB35CFE-1F52-47E0-BFE1-976EB68788C3} = {9AB35CFE-1F52-47E0-BFE1-976EB68788C3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExam_Soap_service", "MockExam_Soap\MockExam_Soap_service.csproj", "{9AB35CFE-1F52-47E0-BFE1-976EB68788C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExam_ServerTCP", "MockExam_ClienttTCP\MockExam_ServerTCP.csproj", "{52D7A3F1-C222-46B8-BCA9-12C201906AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExam_ClientTCP", "MockExam_ClientTCP\MockExam_ClientTCP.csproj", "{F20F2E44-3BA4-4F50-A61E-FE8F0BD752B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AB35CFE-1F52-47E0-BFE1-976EB68788C3} = {9AB35CFE-1F52-47E0-BFE1-976EB68788C3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExam_ServerUDP", "MockExam_ServerUDP\MockExam_ServerUDP.csproj", "{B35B721B-2FB0-48DD-925B-70B5668DF00B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E86F26-5978-451F-A10F-3578D416761F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E86F26-5978-451F-A10F-3578D416761F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E86F26-5978-451F-A10F-3578D416761F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E86F26-5978-451F-A10F-3578D416761F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB35CFE-1F52-47E0-BFE1-976EB68788C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB35CFE-1F52-47E0-BFE1-976EB68788C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB35CFE-1F52-47E0-BFE1-976EB68788C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB35CFE-1F52-47E0-BFE1-976EB68788C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D7A3F1-C222-46B8-BCA9-12C201906AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D7A3F1-C222-46B8-BCA9-12C201906AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D7A3F1-C222-46B8-BCA9-12C201906AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D7A3F1-C222-46B8-BCA9-12C201906AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20F2E44-3BA4-4F50-A61E-FE8F0BD752B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20F2E44-3BA4-4F50-A61E-FE8F0BD752B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20F2E44-3BA4-4F50-A61E-FE8F0BD752B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20F2E44-3BA4-4F50-A61E-FE8F0BD752B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35B721B-2FB0-48DD-925B-70B5668DF00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35B721B-2FB0-48DD-925B-70B5668DF00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35B721B-2FB0-48DD-925B-70B5668DF00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35B721B-2FB0-48DD-925B-70B5668DF00B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
